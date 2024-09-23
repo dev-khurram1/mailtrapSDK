@@ -43,7 +43,7 @@ func SetBody(textBody string) {
 	internalTextBody = textBody
 }
 
-func sendEmail() {
+func SendEmail() {
 	jsonBody := map[string]interface{}{
 		"to": []map[string]string{
 			{"email": receiverEmail, "name": receiverEmail},
